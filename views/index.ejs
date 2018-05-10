@@ -1,0 +1,33 @@
+<h1>RAINFOREST ROBOT</h1>
+
+<form method="GET" action="/data">
+  <div class="">
+    <label for="conveyorBeltFeeder">Conveyor Belt Coordinates</label>
+    <input type="number" name="cb_x" id="cb_x" placeholder="x" required>
+    <input type="number" name="cb_y" id="cb_y" placeholder="y" required>
+  </div>
+
+  <div class="">
+    <label for="robotStartLocation">Robot Coordinates</label>
+    <input type="number" name="rsl_x" id="rsl_x" placeholder="x" required>
+    <input type="number" name="rsl_y" id="rsl_y" placeholder="x">
+  </div>
+
+
+  <label for="robotStartLocation">Crate Details</label>
+  <em><small>(x, y, amount)</small></em>
+  <button type="button" id="addCrate">Add Another Crate</button>
+
+  <div class="crateContainer" id="crateContainer">
+    <input type="number" name="cd_x_0" id="cd_x_0" placeholder="x" required>
+    <input type="number" name="cd_y_0" id="cd_y_0" placeholder="y" required>
+    <input type="number" name="cd_amount_0" id="cd_amount_0" placeholder="n" required>
+  </div>
+
+  <div class="">
+    <label for="robotStartLocation">Route</label>
+    <input type="text" name="route" id="route" placeholder="NWWSPNDPSS" required>
+  </div>
+
+  <button type="submit">Send My instructions</button>
+</form>

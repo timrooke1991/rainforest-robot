@@ -1,0 +1,54 @@
+body {
+  background: #333;
+  width: 500px;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+form {
+  text-align: center;
+}
+
+em {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+label {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type=text] {
+  width: 250px;
+}
+
+button {
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  color: white;
+  background: green;
+  border: white§
+}
