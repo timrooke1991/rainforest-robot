@@ -72,3 +72,4 @@ The application responds with the total number of bags dropped on the conveyor-b
  1. Create a command line interface
  2. Error handling
  3. Style improvements
+ 4. Integrate AJAX
