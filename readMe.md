@@ -63,7 +63,7 @@ The application responds with the total number of bags dropped on the conveyor-b
 ## Testing in Insomnia or Postman
 
 * Once dependancies have been installed.
-* Run `node server.js`.
+* Run `node server`.
 * Open Insomnia or Postman.
 * Make a GET request to the API with relevant query string parameters.
 * For example, `http://localhost:3000/data?cb_x=1&cb_y=1&rsl_x=0&rsl_y=1&cd_x_0=0&cd_y_0=0&cd_amount_0=10&route=PNNEE'`
